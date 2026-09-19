@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ROBLOX LAUNCHER</title>
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:Arial;background:linear-gradient(135deg,#eaf4ff,#fff)}
+.card{width:90%;max-width:420px;background:#fff;border-radius:24px;padding:30px;text-align:center;box-shadow:0 12px 35px #0002}
+.logo{width:82px;height:82px;margin:auto;border-radius:20px;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:bold}
+button{width:100%;padding:17px;margin-top:12px;border:0;border-radius:15px;font-size:17px;font-weight:bold}.launch{background:#111;color:#fff}.signup{background:#eee}
+</style></head><body><div class="card"><div class="logo">R</div><h1>ROBLOX LAUNCHER</h1><p>Roblox를 빠르게 실행하세요.</p>
+<button class="launch" onclick="openRoblox()">🎮 Roblox 실행</button><button class="signup" onclick="signup()">👤 Roblox 회원가입</button>
+<p>Roblox 공식 서비스로 이동합니다.</p></div>
+<script>
+function openRoblox(){location.href='roblox://';setTimeout(()=>location.href='https://www.roblox.com/',1500)}
+function signup(){location.href='https://www.roblox.com/signup'}
+</script></body></html>
